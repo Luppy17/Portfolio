@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lutfir Rahman Saipudin — Software Engineer</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ════════════════════════════════════
+     NAVBAR
+════════════════════════════════════ -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#hero">
+      <span class="brand-mark">L</span>
+      Lutfir Rahman
+    </a>
+
+    <button class="navbar-toggler border-0" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navMenu"
+            aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span style="display:flex;flex-direction:column;padding:2px;">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar" style="width:12px;"></span>
+      </span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav gap-1 align-items-lg-center mt-2 mt-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certifications">Certs</a></li>
+        <li class="nav-item ms-lg-2">
+          <a class="nav-link nav-cta" href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ════════════════════════════════════
+     HERO
+════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-stripe" aria-hidden="true"></div>
+  <div class="hero-bg-num" aria-hidden="true">01</div>
+
+  <div class="hero-inner">
+
+    <!-- LEFT -->
+    <div class="hero-left">
+      <p class="hero-number">Software Engineer</p>
+
+      <h1 class="hero-name">
+        Lutfir<br>
+        Rahman<br>
+        <em>Saipudin.</em>
+      </h1>
+
+      <p class="hero-role">
+        <span class="role-dot"></span>
+        Flutter &amp; Laravel Developer &nbsp;&middot;&nbsp; Selangor, MY
+      </p>
+
+      <p class="hero-desc">
+        Results-driven Software Engineering undergraduate building production-ready
+        applications for government and enterprise clients. Currently seeking
+        entry-level opportunities where I can contribute and grow.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn-terra">
+          <i class="fas fa-paper-plane" style="font-size:0.7rem;"></i>
+          Get In Touch
+        </a>
+        <a href="resume/(CV) Lutfir Rahman Saipudin.pdf" download class="btn-outline">
+          <i class="bi bi-download" style="font-size:0.75rem;"></i>
+          Download CV
+        </a>
+        <a href="#projects" class="btn-ghost">
+          View Projects <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="hero-socials">
+        <a href="mailto:lutfirrahmansaipudin@gmail.com" class="social-sq" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="tel:+601110585345" class="social-sq" title="Phone">
+          <i class="fas fa-phone"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/lutfir-rahman-saipudin-4836391ba/" class="social-sq" title="LinkedIn" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/Luppy17" class="social-sq" title="GitHub" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="hero-right">
+
+      <!-- Profile -->
+      <div class="profile-block reveal">
+        <div class="avatar-frame">
+          <img src="image/me.jpg" alt="Lutfir Rahman Saipudin" class="avatar-img" id="avatarThumb" title="Click to view photo"/>
+        </div>
+        <div class="profile-block-info">
+          <div>
+            <div class="profile-info-name">Lutfir Rahman Saipudin</div>
+            <div class="profile-info-title">Junior Software Engineer</div>
+          </div>
+          <div class="status-pill">
+            <span class="status-ping"></span>
+            Open to Work
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats-grid reveal">
+        <div class="stat-block">
+          <div class="stat-figure">3.17</div>
+          <div class="stat-caption">CGPA</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-figure">30+</div>
+          <div class="stat-caption">Commits</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-figure">15+</div>
+          <div class="stat-caption">Technologies</div>
+        </div>
+      </div>
+
+      <!-- Stack -->
+      <div class="stack-block reveal">
+        <div class="stack-head">Core Tech Stack</div>
+        <div>
+          <span class="chip">Flutter</span>
+          <span class="chip">Laravel</span>
+          <span class="chip">Dart</span>
+          <span class="chip">PHP</span>
+          <span class="chip">MySQL</span>
+          <span class="chip">REST API</span>
+          <span class="chip">Figma</span>
+          <span class="chip">GitLab</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     ABOUT
+════════════════════════════════════ -->
+<section id="about">
+  <div class="container">
+    <div class="row g-5 align-items-start">
+
+      <div class="col-lg-4 reveal from-left">
+        <div class="sec-num">01 &mdash; About</div>
+        <h2 class="sec-title">Who I<br><em>Am.</em></h2>
+        <div class="sec-rule"></div>
+      </div>
+
+      <div class="col-lg-8 reveal">
+        <blockquote class="about-quote">
+          "Passionate about clean code, user-centric design, and delivering real-world impact through software."
+        </blockquote>
+        <p class="about-body">
+          I'm a Software Engineering undergraduate at <strong>Universiti Tun Hussein Onn Malaysia (UTHM)</strong>,
+          specializing in Web Technology. With hands-on industry experience at <strong>Isianpadu System Sdn Bhd</strong>,
+          I've delivered production applications for government clients — including a Flutter app for LTAT
+          used by military fund members nationwide.
+        </p>
+        <p class="about-body">
+          My expertise spans full-stack development: from REST API integration and state management in Flutter,
+          to MVC-based Laravel web applications with authentication and database systems. I'm fluent in
+          <strong>Bahasa Melayu</strong> with intermediate proficiency in <strong>English</strong>.
+        </p>
+        <div class="tech-label">All Technologies</div>
+        <div>
+          <span class="chip">JavaScript</span><span class="chip">PHP</span>
+          <span class="chip">Java</span><span class="chip">C</span>
+          <span class="chip">C#</span><span class="chip">Dart</span>
+          <span class="chip">HTML5</span><span class="chip">CSS3</span>
+          <span class="chip">Laravel</span><span class="chip">Flutter</span>
+          <span class="chip">MySQL</span><span class="chip">REST APIs</span>
+          <span class="chip">JSON</span><span class="chip">Git</span>
+          <span class="chip">GitLab</span><span class="chip">Figma</span>
+          <span class="chip">OpenAPI</span><span class="chip">Google Maps API</span>
+          <span class="chip">MVC</span><span class="chip">Agile / Scrum</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     EXPERIENCE
+════════════════════════════════════ -->
+<section id="experience">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-5 reveal from-left">
+        <div class="sec-num">02 &mdash; Career</div>
+        <h2 class="sec-title">Work<br><em>Experience.</em></h2>
+        <div class="sec-rule"></div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-10 reveal">
+        <div class="exp-wrapper">
+          <div class="exp-header">
+            <div>
+              <div class="exp-company-name">
+                <i class="fas fa-building"></i>
+                Isianpadu System Sdn Bhd
+              </div>
+              <div class="exp-role-name">Internship Trainee &mdash; Technical &amp; Project Department</div>
+            </div>
+            <span class="exp-date-badge">Aug 2025 &ndash; Jan 2026</span>
+          </div>
+          <div class="exp-body">
+            <div class="bullet-item">
+              <span class="bullet-arrow"><i class="fas fa-chevron-right"></i></span>
+              <p class="bullet-text">Developed and enhanced Flutter mobile modules for a government LTAT application, integrating secure REST APIs, multilingual support, and modern UI components used by military fund members nationwide.</p>
+            </div>
+            <div class="bullet-item">
+              <span class="bullet-arrow"><i class="fas fa-chevron-right"></i></span>
+              <p class="bullet-text">Implemented end-to-end API integration and state management, reducing data synchronization issues and improving app responsiveness during UAT.</p>
+            </div>
+            <div class="bullet-item">
+              <span class="bullet-arrow"><i class="fas fa-chevron-right"></i></span>
+              <p class="bullet-text">Designed wireframes and high-fidelity UI mockups for LTAT and ePusara systems using Figma, ensuring compliance with government accessibility and usability standards.</p>
+            </div>
+            <div class="bullet-item">
+              <span class="bullet-arrow"><i class="fas fa-chevron-right"></i></span>
+              <p class="bullet-text">Collaborated with developers, QA, and project managers using GitLab, contributing 30+ commits and merge requests while maintaining clean, review-ready code.</p>
+            </div>
+            <div class="bullet-item">
+              <span class="bullet-arrow"><i class="fas fa-chevron-right"></i></span>
+              <p class="bullet-text">Diagnosed and resolved critical issues including API failures, OpenAPI schema errors, and Flutter Google Maps integration bugs, maintaining ~99% system uptime during UAT.</p>
+            </div>
+            <div class="bullet-item">
+              <span class="bullet-arrow"><i class="fas fa-chevron-right"></i></span>
+              <p class="bullet-text">Supported User Acceptance Testing (UAT) and deployment preparation, ensuring timely delivery aligned with project milestones.</p>
+            </div>
+          </div>
+          <div class="exp-tags">
+            <span class="exp-tag">Flutter</span>
+            <span class="exp-tag">REST API</span>
+            <span class="exp-tag">Figma</span>
+            <span class="exp-tag">GitLab</span>
+            <span class="exp-tag">OpenAPI</span>
+            <span class="exp-tag">Dart</span>
+            <span class="exp-tag">Google Maps API</span>
+            <span class="exp-tag">UAT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     SKILLS
+════════════════════════════════════ -->
+<section id="skills">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <div class="sec-num" style="justify-content:center;">03 &mdash; Expertise</div>
+      <h2 class="sec-title">Technical<br><em>Skills.</em></h2>
+      <div class="sec-rule center"></div>
+    </div>
+    <div class="row g-4">
+      <div class="col-sm-6 col-lg-3 reveal">
+        <div class="skill-panel">
+          <div class="skill-panel-title"><i class="fas fa-code"></i> Languages</div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>Dart</span><span>90%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:90%"></div></div>
+          </div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>PHP</span><span>85%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:85%"></div></div>
+          </div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>JavaScript</span><span>75%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:75%"></div></div>
+          </div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>Java / C / C#</span><span>70%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:70%"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 reveal">
+        <div class="skill-panel">
+          <div class="skill-panel-title"><i class="fas fa-layer-group"></i> Frameworks</div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>Flutter</span><span>90%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:90%"></div></div>
+          </div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>Laravel</span><span>85%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:85%"></div></div>
+          </div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>REST APIs</span><span>88%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:88%"></div></div>
+          </div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>HTML5 / CSS3</span><span>80%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:80%"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 reveal">
+        <div class="skill-panel">
+          <div class="skill-panel-title"><i class="fas fa-tools"></i> Tools</div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>Git / GitLab</span><span>85%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:85%"></div></div>
+          </div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>Figma</span><span>80%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:80%"></div></div>
+          </div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>MySQL</span><span>80%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:80%"></div></div>
+          </div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>OpenAPI</span><span>75%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:75%"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 reveal">
+        <div class="skill-panel">
+          <div class="skill-panel-title"><i class="fas fa-sitemap"></i> Practices</div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>Agile / Scrum</span><span>85%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:85%"></div></div>
+          </div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>MVC Architecture</span><span>85%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:85%"></div></div>
+          </div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>Debugging</span><span>90%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:90%"></div></div>
+          </div>
+          <div class="bar-wrap">
+            <div class="bar-labels"><span>UAT Support</span><span>88%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:88%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     PROJECTS
+════════════════════════════════════ -->
+<section id="projects">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-5 reveal from-left">
+        <div class="sec-num">04 &mdash; Portfolio</div>
+        <h2 class="sec-title">Projects &amp;<br><em>Achievements.</em></h2>
+        <div class="sec-rule"></div>
+      </div>
+    </div>
+    <div class="row g-4">
+
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon-num" aria-hidden="true">01</div>
+            <div class="project-icon-box"><i class="fas fa-mobile-alt"></i></div>
+            <div class="project-title">LTAT Government App</div>
+          </div>
+          <div class="project-body-area">
+            <p class="project-desc">Flutter mobile application for LTAT — Malaysia's military fund authority. Features secure REST API integration, multilingual support, and modern UI components used by fund members nationwide.</p>
+          </div>
+          <div class="project-foot">
+            <span class="ptag">Flutter</span><span class="ptag">Dart</span>
+            <span class="ptag">REST API</span><span class="ptag">Figma</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon-num" aria-hidden="true">02</div>
+            <div class="project-icon-box"><i class="fas fa-globe"></i></div>
+            <div class="project-title">ePusara System UI</div>
+          </div>
+          <div class="project-body-area">
+            <p class="project-desc">Designed wireframes and high-fidelity UI mockups for the ePusara government system using Figma, ensuring compliance with government accessibility and usability standards.</p>
+          </div>
+          <div class="project-foot">
+            <span class="ptag">Figma</span><span class="ptag">UI/UX</span>
+            <span class="ptag">Wireframing</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon-num" aria-hidden="true">03</div>
+            <div class="project-icon-box"><i class="fas fa-trophy"></i></div>
+            <div class="project-title">Business Website Challenge</div>
+          </div>
+          <div class="project-body-area">
+            <p class="project-desc">Achieved First Runner-Up in a competitive Business Website Challenge, demonstrating strong front-end development, problem-solving, and innovation skills.</p>
+          </div>
+          <div class="project-foot">
+            <span class="ptag">HTML5</span><span class="ptag">CSS3</span>
+            <span class="ptag">JavaScript</span><span class="ptag">&#x1F948; 1st Runner-Up</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon-num" aria-hidden="true">04</div>
+            <div class="project-icon-box"><i class="fas fa-database"></i></div>
+            <div class="project-title">Laravel Academic System</div>
+          </div>
+          <div class="project-body-area">
+            <p class="project-desc">Built a database-driven academic web application using Laravel MVC, MySQL, and authentication modules with proper user role management and scalable architecture.</p>
+          </div>
+          <div class="project-foot">
+            <span class="ptag">Laravel</span><span class="ptag">PHP</span>
+            <span class="ptag">MySQL</span><span class="ptag">MVC</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon-num" aria-hidden="true">05</div>
+            <div class="project-icon-box"><i class="fas fa-shopping-cart"></i></div>
+            <div class="project-title">Laravel E-Commerce Platform</div>
+          </div>
+          <div class="project-body-area">
+            <p class="project-desc">Full-featured e-commerce web app with product management, authentication, shopping cart, and order systems — demonstrating full-stack capabilities and clean application architecture.</p>
+          </div>
+          <div class="project-foot">
+            <span class="ptag">Laravel</span><span class="ptag">PHP</span>
+            <span class="ptag">MySQL</span><span class="ptag">Auth</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon-num" aria-hidden="true">06</div>
+            <div class="project-icon-box"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="project-title">Google Maps Flutter Integration</div>
+          </div>
+          <div class="project-body-area">
+            <p class="project-desc">Resolved complex Flutter Google Maps integration bugs, diagnosing API failures and OpenAPI schema errors to maintain ~99% uptime during live government UAT sessions.</p>
+          </div>
+          <div class="project-foot">
+            <span class="ptag">Flutter</span><span class="ptag">Google Maps API</span>
+            <span class="ptag">Debugging</span><span class="ptag">OpenAPI</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     EDUCATION
+════════════════════════════════════ -->
+<section id="education">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-5 reveal from-left">
+        <div class="sec-num">05 &mdash; Academic</div>
+        <h2 class="sec-title">Education &amp;<br><em>Credentials.</em></h2>
+        <div class="sec-rule"></div>
+      </div>
+    </div>
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-md-6 col-lg-5 reveal">
+        <div class="edu-card">
+          <div class="edu-bar"></div>
+          <div class="edu-body">
+            <div class="edu-institution">
+              <i class="fas fa-university"></i>
+              Universiti Tun Hussein Onn Malaysia
+            </div>
+            <div class="edu-degree-name">Bachelor of Computer Science</div>
+            <div class="edu-spec">(Web Technology) With Honours</div>
+            <div class="edu-foot">
+              <span class="edu-period">Oct 2022 &ndash; Jan 2026</span>
+              <span class="cgpa-badge">3.17 <span>CGPA</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-5 reveal">
+        <div class="edu-card">
+          <div class="edu-bar"></div>
+          <div class="edu-body">
+            <div class="edu-institution">
+              <i class="fas fa-university"></i>
+              Polytechnic Ungku Omar
+            </div>
+            <div class="edu-degree-name">Diploma in Information Technology</div>
+            <div class="edu-spec">(Digital Technology)</div>
+            <div class="edu-foot">
+              <span class="edu-period">Jun 2019 &ndash; Jun 2021</span>
+              <span class="cgpa-badge">3.59 <span>CGPA</span></span>
+            </div>
+            <div><span class="award-badge">&#x1F3C6; Dean's List &mdash; Sem 3, 4 &amp; 5</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     CERTIFICATIONS
+════════════════════════════════════ -->
+<section id="certifications">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-5 reveal from-left">
+        <div class="sec-num">06 &mdash; Learning</div>
+        <h2 class="sec-title">Certifications &amp;<br><em>Training.</em></h2>
+        <div class="sec-rule"></div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 reveal">
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-robot"></i></div>
+          <div>
+            <div class="cert-name">Laravel Bootcamp: Web Development Using ChatGPT</div>
+            <div class="cert-detail">Applied AI-assisted development techniques to accelerate feature delivery using ChatGPT integration in a Laravel workflow.</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div>
+            <div class="cert-name">Build Your FYP with Laravel Bootcamp</div>
+            <div class="cert-detail">Strengthened real-world Laravel project architecture and deployment skills, focusing on final-year project development patterns.</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fab fa-google-play"></i></div>
+          <div>
+            <div class="cert-name">Flutter Intensive Training</div>
+            <div class="cert-detail">Covered AI chatbot integration, payment gateways, and mobile app deployment — leading to codebase refactoring and improved maintainability in production apps.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     CONTACT
+════════════════════════════════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="row g-5 align-items-start">
+
+      <div class="col-lg-5 reveal from-left">
+        <div class="sec-num">07 &mdash; Contact</div>
+        <h2 class="sec-title">Let's<br><em>Talk.</em></h2>
+        <div class="sec-rule"></div>
+        <p class="contact-lead mt-4">
+          I'm actively seeking entry-level Software Engineer opportunities.
+          Reach out for collaborations, job opportunities, or just to say hello.
+        </p>
+        <div class="social-row mt-4">
+          <a href="mailto:lutfirrahmansaipudin@gmail.com" class="social-sq-dark" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="tel:+601110585345" class="social-sq-dark" title="Phone">
+            <i class="fas fa-phone"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/lutfir-rahman-saipudin-4836391ba/" class="social-sq-dark" title="LinkedIn" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/Luppy17" class="social-sq-dark" title="GitHub" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-7 reveal from-right">
+        <a href="mailto:lutfirrahmansaipudin@gmail.com" class="big-cta">
+          Send me an email
+          <span class="arrow">&#x2197;</span>
+        </a>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+            <div class="ci-label">Email</div>
+            <div class="ci-value" style="font-size:0.76rem;"><a href="mailto:lutfirrahmansaipudin@gmail.com" style="color:inherit;text-decoration:none;">lutfirrahmansaipudin@gmail.com</a></div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fas fa-phone"></i></div>
+            <div class="ci-label">Phone</div>
+            <div class="ci-value">+60 11 1058 5345</div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="ci-label">Location</div>
+            <div class="ci-value">Banting, Selangor, Malaysia</div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fas fa-briefcase"></i></div>
+            <div class="ci-label">Status</div>
+            <div class="ci-value open">Open to Work</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════
+     LIGHTBOX
+════════════════════════════════════ -->
+<div class="lightbox-overlay" id="lightbox" role="dialog" aria-modal="true" aria-label="Profile photo">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+    <i class="fas fa-times"></i>
+  </button>
+  <img src="image/me.jpg" alt="Lutfir Rahman Saipudin" class="lightbox-img"/>
+  <span class="lightbox-caption">Lutfir Rahman Saipudin — Software Engineer</span>
+</div>
+
+<!-- ════════════════════════════════════
+     FOOTER
+════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <p class="footer-text">
+      Designed &amp; built by <span>Lutfir Rahman Saipudin</span> &mdash; Software Engineer, Selangor, Malaysia
+    </p>
+    <p class="footer-sub">Flutter &middot; Laravel &middot; Full-Stack Developer &middot; 2025</p>
+  </div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script>
+  /* Scroll Reveal */
+  const reveals = document.querySelectorAll('.reveal');
+  const revObs = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in');
+        revObs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.07, rootMargin: '0px 0px -40px 0px' });
+  reveals.forEach((el, i) => {
+    el.style.transitionDelay = (i % 5) * 0.08 + 's';
+    revObs.observe(el);
+  });
+
+  /* Smooth Scroll */
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if (href !== '#' && href.startsWith('#')) {
+        const target = document.querySelector(href);
+        if (target) {
+          e.preventDefault();
+          window.scrollTo({ top: target.offsetTop - 74, behavior: 'smooth' });
+          const menu = document.getElementById('navMenu');
+          const collapse = bootstrap.Collapse.getInstance(menu);
+          if (collapse) collapse.hide();
+        }
+      }
+    });
+  });
+
+  /* Active Nav */
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-link:not(.nav-cta)');
+  window.addEventListener('scroll', () => {
+    let cur = '';
+    sections.forEach(s => { if (window.scrollY >= s.offsetTop - 100) cur = s.id; });
+    navLinks.forEach(l => {
+      l.classList.remove('active-nav');
+      if (l.getAttribute('href') === '#' + cur) l.classList.add('active-nav');
+    });
+  }, { passive: true });
+
+  /* Navbar shadow on scroll */
+  const nav = document.querySelector('.navbar');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+
+  /* Lightbox */
+  const lightbox = document.getElementById('lightbox');
+  const lightboxClose = document.getElementById('lightboxClose');
+  const avatarThumb = document.getElementById('avatarThumb');
+
+  function openLightbox() {
+    lightbox.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    lightboxClose.focus();
+  }
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  avatarThumb.addEventListener('click', openLightbox);
+  lightboxClose.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>
+
+</body>
+</html>
